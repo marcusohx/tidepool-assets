@@ -1,0 +1,444 @@
+{
+  "version": 1,
+  "theme": "tidepool-fishing",
+  "command": "!cast",
+  "baseUrl": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main",
+  "scale": 12,
+  "variants": [
+    "normal",
+    "golden",
+    "shiny",
+    "undiscovered"
+  ],
+  "rarities": {
+    "common": {
+      "weight": 0.5,
+      "label": "Common"
+    },
+    "uncommon": {
+      "weight": 0.3,
+      "label": "Uncommon"
+    },
+    "rare": {
+      "weight": 0.15,
+      "label": "Rare"
+    },
+    "legendary": {
+      "weight": 0.05,
+      "label": "Legendary"
+    }
+  },
+  "variantOdds": {
+    "normal": 0.9,
+    "shiny": 0.07,
+    "golden": 0.03
+  },
+  "fish": [
+    {
+      "slug": "mackerel",
+      "name": "Mackerel",
+      "rarity": "common",
+      "bit": 0,
+      "value": 5,
+      "location": "tidepool",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/mackerel.png",
+          "pixels": "f9f7d068ba63"
+        },
+        "golden": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/golden/mackerel.png",
+          "pixels": "22f97501333c"
+        },
+        "shiny": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/shiny/mackerel.png",
+          "pixels": "56aaa31b151f"
+        },
+        "undiscovered": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/undiscovered/mackerel.png",
+          "pixels": "70bf416d529c"
+        }
+      }
+    },
+    {
+      "slug": "starfish",
+      "name": "Sea Star",
+      "rarity": "common",
+      "bit": 1,
+      "value": 4,
+      "location": "tidepool",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/starfish.png",
+          "pixels": "e8daa56c153d"
+        },
+        "golden": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/golden/starfish.png",
+          "pixels": "fb64267a8384"
+        },
+        "shiny": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/shiny/starfish.png",
+          "pixels": "44b050ae7d29"
+        },
+        "undiscovered": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/undiscovered/starfish.png",
+          "pixels": "8be2aaad3c7e"
+        }
+      }
+    },
+    {
+      "slug": "hermitcrab",
+      "name": "Hermit Crab",
+      "rarity": "common",
+      "bit": 2,
+      "value": 6,
+      "location": "tidepool",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/hermitcrab.png",
+          "pixels": "583303a6f899"
+        },
+        "golden": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/golden/hermitcrab.png",
+          "pixels": "56fe09ff0536"
+        },
+        "shiny": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/shiny/hermitcrab.png",
+          "pixels": "1f727c8f130c"
+        },
+        "undiscovered": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/undiscovered/hermitcrab.png",
+          "pixels": "e63fd10d2954"
+        }
+      }
+    },
+    {
+      "slug": "flounder",
+      "name": "Flounder",
+      "rarity": "common",
+      "bit": 3,
+      "value": 5,
+      "location": "tidepool",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/flounder.png",
+          "pixels": "f869221f5da4"
+        },
+        "golden": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/golden/flounder.png",
+          "pixels": "a211c03be0ac"
+        },
+        "shiny": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/shiny/flounder.png",
+          "pixels": "476c6ecd8c09"
+        },
+        "undiscovered": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/undiscovered/flounder.png",
+          "pixels": "cb10e9250dfe"
+        }
+      }
+    },
+    {
+      "slug": "pufferfish",
+      "name": "Pufferfish",
+      "rarity": "common",
+      "bit": 4,
+      "value": 7,
+      "location": "kelp",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/pufferfish.png",
+          "pixels": "f2e66baf4a9f"
+        },
+        "golden": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/golden/pufferfish.png",
+          "pixels": "1903c7caefc1"
+        },
+        "shiny": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/shiny/pufferfish.png",
+          "pixels": "f19d902d3f04"
+        },
+        "undiscovered": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/undiscovered/pufferfish.png",
+          "pixels": "44364825188f"
+        }
+      }
+    },
+    {
+      "slug": "seahorse",
+      "name": "Seahorse",
+      "rarity": "uncommon",
+      "bit": 5,
+      "value": 12,
+      "location": "tidepool",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/seahorse.png",
+          "pixels": "262ef7468a9b"
+        },
+        "golden": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/golden/seahorse.png",
+          "pixels": "d0fe56755ce6"
+        },
+        "shiny": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/shiny/seahorse.png",
+          "pixels": "e58a5c2edeec"
+        },
+        "undiscovered": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/undiscovered/seahorse.png",
+          "pixels": "b280193c08c4"
+        }
+      }
+    },
+    {
+      "slug": "lobster",
+      "name": "Spiny Lobster",
+      "rarity": "uncommon",
+      "bit": 6,
+      "value": 15,
+      "location": "tidepool",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/lobster.png",
+          "pixels": "6a5306271709"
+        },
+        "golden": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/golden/lobster.png",
+          "pixels": "798274f395e9"
+        },
+        "shiny": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/shiny/lobster.png",
+          "pixels": "1aa6db80f4b1"
+        },
+        "undiscovered": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/undiscovered/lobster.png",
+          "pixels": "5ce4706f7cad"
+        }
+      }
+    },
+    {
+      "slug": "moray",
+      "name": "Moray Eel",
+      "rarity": "uncommon",
+      "bit": 7,
+      "value": 14,
+      "location": "kelp",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/moray.png",
+          "pixels": "6cd785778bc3"
+        },
+        "golden": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/golden/moray.png",
+          "pixels": "fc37fa11d115"
+        },
+        "shiny": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/shiny/moray.png",
+          "pixels": "6b5280199792"
+        },
+        "undiscovered": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/undiscovered/moray.png",
+          "pixels": "867ded7c83af"
+        }
+      }
+    },
+    {
+      "slug": "lionfish",
+      "name": "Lionfish",
+      "rarity": "uncommon",
+      "bit": 8,
+      "value": 13,
+      "location": "kelp",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/lionfish.png",
+          "pixels": "239c03d11e8c"
+        },
+        "golden": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/golden/lionfish.png",
+          "pixels": "917c49bcfe0e"
+        },
+        "shiny": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/shiny/lionfish.png",
+          "pixels": "4fd55fcab26d"
+        },
+        "undiscovered": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/undiscovered/lionfish.png",
+          "pixels": "2656edbb0cda"
+        }
+      }
+    },
+    {
+      "slug": "jellyfish",
+      "name": "Moon Jelly",
+      "rarity": "rare",
+      "bit": 9,
+      "value": 26,
+      "location": "tidepool",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/jellyfish.png",
+          "pixels": "280eaa51ab2e"
+        },
+        "golden": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/golden/jellyfish.png",
+          "pixels": "d2fb4931572c"
+        },
+        "shiny": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/shiny/jellyfish.png",
+          "pixels": "cf76ba800dcf"
+        },
+        "undiscovered": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/undiscovered/jellyfish.png",
+          "pixels": "9ff8186c2620"
+        }
+      }
+    },
+    {
+      "slug": "stingray",
+      "name": "Stingray",
+      "rarity": "rare",
+      "bit": 10,
+      "value": 28,
+      "location": "kelp",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/stingray.png",
+          "pixels": "df539b172f85"
+        },
+        "golden": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/golden/stingray.png",
+          "pixels": "3895c3c7de23"
+        },
+        "shiny": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/shiny/stingray.png",
+          "pixels": "3784e5dc9ab4"
+        },
+        "undiscovered": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/undiscovered/stingray.png",
+          "pixels": "f9234d457bda"
+        }
+      }
+    },
+    {
+      "slug": "octopus",
+      "name": "Octopus",
+      "rarity": "rare",
+      "bit": 11,
+      "value": 34,
+      "location": "kelp",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/octopus.png",
+          "pixels": "d26d8646fb3f"
+        },
+        "golden": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/golden/octopus.png",
+          "pixels": "fea73382cec7"
+        },
+        "shiny": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/shiny/octopus.png",
+          "pixels": "d4553dbbc328"
+        },
+        "undiscovered": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/undiscovered/octopus.png",
+          "pixels": "42d99efe29ec"
+        }
+      }
+    },
+    {
+      "slug": "anglerfish",
+      "name": "Anglerfish",
+      "rarity": "legendary",
+      "bit": 12,
+      "value": 100,
+      "location": "kelp",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/anglerfish.png",
+          "pixels": "7167efdbb2bb"
+        },
+        "golden": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/golden/anglerfish.png",
+          "pixels": "5958404a1ab6"
+        },
+        "shiny": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/shiny/anglerfish.png",
+          "pixels": "a0d1c4ecc827"
+        },
+        "undiscovered": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/undiscovered/anglerfish.png",
+          "pixels": "d0650a5d8097"
+        }
+      }
+    }
+  ],
+  "objects": [
+    {
+      "slug": "rod",
+      "name": "Fishing Rod",
+      "kind": "rod",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/rod.png",
+          "pixels": "020dedc74955"
+        }
+      }
+    },
+    {
+      "slug": "bait",
+      "name": "Bait Jar",
+      "kind": "bait",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/bait.png",
+          "pixels": "7fb59748f04b"
+        }
+      }
+    },
+    {
+      "slug": "coin",
+      "name": "Coin",
+      "kind": "currency",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/coin.png",
+          "pixels": "c7a39a508a2b"
+        }
+      }
+    },
+    {
+      "slug": "rock",
+      "name": "Tidepool Rock",
+      "kind": "scenery",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/rock.png",
+          "pixels": "2c7c5eca67ce"
+        }
+      }
+    },
+    {
+      "slug": "weed",
+      "name": "Kelp Frond",
+      "kind": "scenery",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/weed.png",
+          "pixels": "9c90c8ba389a"
+        }
+      }
+    },
+    {
+      "slug": "dock",
+      "name": "Dock Post",
+      "kind": "scenery",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/dock.png",
+          "pixels": "a7646125e5ba"
+        }
+      }
+    }
+  ]
+}
