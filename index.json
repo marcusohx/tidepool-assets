@@ -33,6 +33,16 @@
     "shiny": 0.07,
     "golden": 0.03
   },
+  "locations": {
+    "tidepool": {
+      "label": "The Tidepool",
+      "order": 0
+    },
+    "kelp": {
+      "label": "Kelp Forest",
+      "order": 1
+    }
+  },
   "fish": [
     {
       "slug": "mackerel",
@@ -411,6 +421,7 @@
       "slug": "rock",
       "name": "Tidepool Rock",
       "kind": "scenery",
+      "location": "tidepool",
       "assets": {
         "normal": {
           "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/rock.png",
@@ -422,6 +433,7 @@
       "slug": "weed",
       "name": "Kelp Frond",
       "kind": "scenery",
+      "location": "kelp",
       "assets": {
         "normal": {
           "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/weed.png",
@@ -433,10 +445,184 @@
       "slug": "dock",
       "name": "Dock Post",
       "kind": "scenery",
+      "location": "tidepool",
       "assets": {
         "normal": {
           "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/dock.png",
           "pixels": "a7646125e5ba"
+        }
+      }
+    },
+    {
+      "slug": "scenetidepool",
+      "name": "The Tidepool",
+      "kind": "backdrop",
+      "location": "tidepool",
+      "frames": 16,
+      "assets": {
+        "anim": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/anim/scenetidepool.gif",
+          "pixels": "46dead219f42"
+        },
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/scenetidepool.png",
+          "pixels": "9c8105c31274"
+        }
+      }
+    },
+    {
+      "slug": "scenekelp",
+      "name": "Kelp Forest",
+      "kind": "backdrop",
+      "location": "kelp",
+      "frames": 16,
+      "assets": {
+        "anim": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/anim/scenekelp.gif",
+          "pixels": "1512de731f33"
+        },
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/scenekelp.png",
+          "pixels": "21a172a16b3e"
+        }
+      }
+    },
+    {
+      "slug": "angleridle",
+      "name": "Angler",
+      "kind": "angler",
+      "state": "idle",
+      "frames": 8,
+      "assets": {
+        "anim": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/anim/angleridle.gif",
+          "pixels": "3d0fd02897bb"
+        },
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/angleridle.png",
+          "pixels": "50b19e78dd1d"
+        }
+      }
+    },
+    {
+      "slug": "anglercast",
+      "name": "Angler",
+      "kind": "angler",
+      "state": "cast",
+      "frames": 8,
+      "assets": {
+        "anim": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/anim/anglercast.gif",
+          "pixels": "f7e6cf60392b"
+        },
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/anglercast.png",
+          "pixels": "8604e3f023f4"
+        }
+      }
+    },
+    {
+      "slug": "anglerreel",
+      "name": "Angler",
+      "kind": "angler",
+      "state": "reel",
+      "frames": 8,
+      "assets": {
+        "anim": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/anim/anglerreel.gif",
+          "pixels": "8469f4bcedaf"
+        },
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/anglerreel.png",
+          "pixels": "f0c2dabfc82d"
+        }
+      }
+    },
+    {
+      "slug": "anglercaught",
+      "name": "Angler",
+      "kind": "angler",
+      "state": "caught",
+      "frames": 8,
+      "assets": {
+        "anim": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/anim/anglercaught.gif",
+          "pixels": "627fad278363"
+        },
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/anglercaught.png",
+          "pixels": "b09e3649c173"
+        }
+      }
+    },
+    {
+      "slug": "anglerfidget",
+      "name": "Angler",
+      "kind": "angler",
+      "state": "fidget",
+      "frames": 8,
+      "assets": {
+        "anim": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/anim/anglerfidget.gif",
+          "pixels": "ec05f03565f2"
+        },
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/anglerfidget.png",
+          "pixels": "c10d1c6f58d0"
+        }
+      }
+    },
+    {
+      "slug": "splash",
+      "name": "Splash",
+      "kind": "effect",
+      "frames": 8,
+      "assets": {
+        "anim": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/anim/splash.gif",
+          "pixels": "f102747a9eb0"
+        },
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/splash.png",
+          "pixels": "cb11d11d3bd8"
+        }
+      }
+    },
+    {
+      "slug": "cloud",
+      "name": "Cloud",
+      "kind": "effect",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/cloud.png",
+          "pixels": "e002adfcb710"
+        }
+      }
+    },
+    {
+      "slug": "cloudsmall",
+      "name": "Small Cloud",
+      "kind": "effect",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/cloudsmall.png",
+          "pixels": "081c5327139f"
+        }
+      }
+    },
+    {
+      "slug": "gull",
+      "name": "Gull",
+      "kind": "effect",
+      "frames": 4,
+      "assets": {
+        "anim": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/anim/gull.gif",
+          "pixels": "28124d757773"
+        },
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/gull.png",
+          "pixels": "31094d05ab77"
         }
       }
     }
