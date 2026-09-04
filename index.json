@@ -385,9 +385,66 @@
   ],
   "objects": [
     {
+      "slug": "uishop",
+      "name": "Shop",
+      "kind": "ui",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/uishop.png",
+          "pixels": "ba0e146273fd"
+        }
+      }
+    },
+    {
+      "slug": "uicatalog",
+      "name": "Catalogue",
+      "kind": "ui",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/uicatalog.png",
+          "pixels": "84ec4e3b5752"
+        }
+      }
+    },
+    {
+      "slug": "uibackpack",
+      "name": "Backpack",
+      "kind": "ui",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/uibackpack.png",
+          "pixels": "4e57ca4a5c4f"
+        }
+      }
+    },
+    {
+      "slug": "uileaders",
+      "name": "Leaders",
+      "kind": "ui",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/uileaders.png",
+          "pixels": "02b1e0a4ce5f"
+        }
+      }
+    },
+    {
+      "slug": "uihelp",
+      "name": "Help",
+      "kind": "ui",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/uihelp.png",
+          "pixels": "e2ccbc0fd8cb"
+        }
+      }
+    },
+    {
       "slug": "rod",
       "name": "Fishing Rod",
       "kind": "rod",
+      "price": 500,
+      "item": 0,
       "assets": {
         "normal": {
           "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/rod.png",
@@ -399,6 +456,8 @@
       "slug": "bait",
       "name": "Bait Jar",
       "kind": "bait",
+      "price": 150,
+      "item": 1,
       "assets": {
         "normal": {
           "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/bait.png",
