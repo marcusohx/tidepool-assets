@@ -429,6 +429,39 @@
       }
     },
     {
+      "slug": "uicast",
+      "name": "Cast",
+      "kind": "ui",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/uicast.png",
+          "pixels": "fd386695a437"
+        }
+      }
+    },
+    {
+      "slug": "uibuy",
+      "name": "Buy",
+      "kind": "ui",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/uibuy.png",
+          "pixels": "9aa5f4f610de"
+        }
+      }
+    },
+    {
+      "slug": "uifish",
+      "name": "Fish",
+      "kind": "ui",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/uifish.png",
+          "pixels": "476a93e8681f"
+        }
+      }
+    },
+    {
       "slug": "uihelp",
       "name": "Help",
       "kind": "ui",
@@ -445,6 +478,9 @@
       "kind": "rod",
       "price": 500,
       "item": 0,
+      "effect": {
+        "rarity": 2.5
+      },
       "assets": {
         "normal": {
           "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/rod.png",
@@ -458,6 +494,9 @@
       "kind": "bait",
       "price": 150,
       "item": 1,
+      "effect": {
+        "variant": 4
+      },
       "assets": {
         "normal": {
           "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/bait.png",
