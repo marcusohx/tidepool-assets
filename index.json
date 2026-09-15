@@ -473,6 +473,17 @@
       }
     },
     {
+      "slug": "uikeeper",
+      "name": "Keeper",
+      "kind": "ui",
+      "assets": {
+        "normal": {
+          "url": "https://cdn.jsdelivr.net/gh/marcusohx/tidepool-assets@main/normal/uikeeper.png",
+          "pixels": "82c41cf007cb"
+        }
+      }
+    },
+    {
       "slug": "rod",
       "name": "Fishing Rod",
       "kind": "rod",
